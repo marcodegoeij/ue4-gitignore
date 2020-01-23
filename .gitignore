@@ -8,8 +8,9 @@
 # Do not ignore current project's `.uproject`.
 !/Game.uproject
 
-# Do not ignore source, config and plugins dirs.
+# Do not ignore source, config, plugins and build dirs.
 !/Source/**
+!/Build/**
 !/Config/**
 !/Plugins/**
 

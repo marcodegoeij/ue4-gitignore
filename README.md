@@ -11,6 +11,7 @@ This template implies some conventions to be used correctly, which are discussed
 Repository structure is fixed, and it only has a few toplevel directories. Every other directory or file is ignored.
 
 - `/Source`
+- `/Build`
 - `/Config`
 - `/Plugins`
 - `/Content`
@@ -23,6 +24,10 @@ Repository structure is fixed, and it only has a few toplevel directories. Every
 
 C++ source code is stored under the `/Source` path. As with most other directories, this directory is managed by standard git (and not `git-lfs`). That means no blobs. Do not put here any `.dll`s, `.exe`s, `.zip`s and other binaries. Only text files are allowed.
 Generated text files can reside in the local `/Source` dir, but should be ignored by git with additional entries in `.gitignore`.
+
+#### `/Build`
+
+Holds files needed for building the engine or game, including files necessary for creating platform-specific builds.
 
 #### `/Config`
 
