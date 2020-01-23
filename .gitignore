@@ -23,6 +23,10 @@
 # Any file in /RawContent dir will be managed by git lfs.
 !/RawContent/**/*
 
+# Allow any files from /UsdContent dir.
+# Any file in /UsdContent dir will be managed by git lfs.
+!/UsdContent/**/*
+
 # OS/platform generated files.
 
 # Windows
